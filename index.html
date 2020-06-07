@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+    
+        <header>
+            <img src="assets/logo.svg" alt="Logo IMC Calculator">
+        </header>
+
+        <div class="content">
+            <form id="form">
+                <div class="form-group">
+                    <label for="name">Digite seu nome</label>
+                    <input type="text" id="name" placeholder="Nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Digite seu sexo</label>
+                    <select id="gender">
+                        <option value="male">Masculino</option>
+                        <option value="female">Feminino</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="age">Digite sua idade</label>
+                    <input type="number" id="age" placeholder="ex: 25">
+                </div>
+                <div class="form-group">
+                    <label for="height">Digite sua altura (m)</label>
+                    <input type="number" id="height" placeholder="ex: 1.80">
+                </div>
+                <div class="form-group">
+                    <label for="weight" id="weight" placeholder="ex: 80">Digite seu peso (kg)</label>
+                    <input type="number" id="weight">
+                </div>
+                <div class="form-group">
+                    <label for="activity-level">Digite seu nível de atividade física</label>
+                    <select id="activity-level">
+                        <option value="1.2">Sedentário</option>
+                        <option value="1.375">Atividade leve</option>
+                        <option value="1.55">Atividade moderada</option>
+                        <option value="1.725">Atividade intensa</option>
+                        <option value="1.9">Atividade muito intensa</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Calcular</button>
+                </div>
+            </form>
+            
+<!---------------------------- Result-Container ------------------------>
+
+            <div class="result-container">
+                <h2>Resultado dos dados</h2>
+
+                <div class="result-content">
+                    <ul>
+                        <li>
+                            Metabolismo basal : <strong>1606 Kcal</strong>
+                        </li>
+                        <li>
+                            Para manutenção do peso, consumir em média <strong>1928 Kcal</strong>
+                        </li>
+                        <li>
+                            Para perder peso, consumir em média <strong>
+                            1638 Kcal</strong>
+                        </li>
+                        <li>
+                            Para ganhar peso, consumir em média <strong>
+                            2217 Kcal</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
