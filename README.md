@@ -1,4 +1,4 @@
-# imc-calculator
+# IMC-Calculator
 IMC Calculator
 Projeto com objetivo de uma calculadora para estipular o índice de massa corporal e taxa metabólica basal.
 
