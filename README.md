@@ -23,7 +23,7 @@ TMB (Taxa Metabólica Basal)
     sem prejudicar o funcionamento dos principais órgãos. Exemplo: o coração, cérebro, pulmões, intestino, etc, e manter a temperatura corporal sobre a               normalidade. A TMB (Taxa Metabólica Basal) irá variar, a depender do nível/fator de atividade que cada indivíduo exerce
 
 Cálculo do Metabolismo Basal
-    Taxa de .atividade
+    Taxa de atividade
 
     Sedentários = 1.2 (pouco ou nenhum exercício)
     Levemente ativo = 1.375 (exercício leve 1 a 3 dias por semana)
